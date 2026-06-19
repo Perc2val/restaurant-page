@@ -1,4 +1,6 @@
-import "./styles.css";
-import {renderMainPage} from "./mainContentJS.js";
+import "./stylesheets/mainStyles.css";
+import {renderMainPage} from "./content/mainContentJS.js";
+import {createEventListener} from "./helper/components.js";
 
 renderMainPage();
+createEventListener();

@@ -63,7 +63,7 @@ nav > button:hover{
     border: solid 2px var(--complementory-accent-color);
     color: var(--complementory-accent-color);
 }
-.content{
+.contentMain{
     padding: var(--padding-large);
     display: flex;
     justify-content: space-evenly;
@@ -87,4 +87,28 @@ nav > button:hover{
 }
 h3{
     font-size: xx-large;
+}
+
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+}
+
+.contentMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+}
+
+.contentMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
 }
